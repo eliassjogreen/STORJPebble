@@ -39,7 +39,9 @@
     "sdkVersion": "3",
     "shortName": "StorJ",
     "targetPlatforms": [
-        "basalt"
+        "aplite",
+        "basalt",
+        "chalk"
     ],
     "uuid": "377199c1-af2f-4d93-823d-9b1e671437a7",
     "versionCode": 1,
