@@ -1,9 +1,9 @@
 # STORJPebble
 A simple storj node monitoring app for pebble
 
-![Aplite](/images/Aplite_STORJ.png)
-![Basalt](/images/Basalt_STORJ.png)
-![Chalk](/images/Chalk_STORJ.png)
+| Aplite (Pebble og) | Basalt (Pebble time) | Chalk (Pebble round) |
+| -------------------------------- | -------------------------------- | -------------------------------- | 
+| ![Aplite](/images/Aplite_STORJ.png) | ![Basalt](/images/Basalt_STORJ.png) | ![Chalk](/images/Chalk_STORJ.png) |
 
 ## Adding your own Storj node
 Just open the pebble app and configure the app!
