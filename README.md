@@ -9,3 +9,6 @@ To add your own storj node replace the two strings to your wanted storj node id 
 
 ## The future
 I am right now implementing support for multiple nodes, any help would be greatly appreciated!
+
+- [ ] Multiple nodes
+- [ ] Configurable using clay
