@@ -1,10 +1,10 @@
 {
     "appKeys": {},
     "capabilities": [
-        ""
+        "configurable"
     ],
     "companyName": "eliassjogreen11@gmail.com",
-    "longName": "StorJ",
+    "longName": "STORJPebble",
     "projectType": "pebblejs",
     "resources": {
         "media": [
@@ -37,7 +37,7 @@
         ]
     },
     "sdkVersion": "3",
-    "shortName": "StorJ",
+    "shortName": "STORJ",
     "targetPlatforms": [
         "aplite",
         "basalt",
