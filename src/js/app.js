@@ -8,9 +8,9 @@ var clay = new Clay(clayConfig);
 
 var options = Settings.option();
 
-var node = {id: 'ff67240e523fc15e2fbdf4caeed8421840e0f71c', nick: 'DEMO Please configure'};
+var node = {id: options.id, nick: options.nick};
 
-var interval = 10000;
+var interval = options.interval;
 
 var main = new UI.Menu({
     sections: [{
@@ -31,8 +31,11 @@ main.section(1, { title: node.nick, items: [
 	{title: 'User agent'}
 ]});
 
-main.show();
-updateItems();
+Pebble.addEventListener('ready', function(e) {	
+	setOptions();
+	updateItems();
+	main.show();
+});
 
 Pebble.addEventListener('showConfiguration', function(e) {
 	var claySettings = JSON.parse(localStorage.getItem("clay-settings"));
@@ -45,6 +48,9 @@ Pebble.addEventListener('showConfiguration', function(e) {
 	}	
 	localStorage["clay-settings"] = JSON.stringify(claySettings);
   	Pebble.openURL(clay.generateUrl());
+	
+	updateItems();
+	main.show();
 });
 
 Pebble.addEventListener('webviewclosed', function(e) {	
@@ -72,6 +78,7 @@ function setOptions() {
 function updateItems() {
 	ajax({ url: 'https://api.storj.io/contacts/' + node.id, type: 'json'},
 			function(data) {
+				main.section(1, { title: node.nick });
 				main.items(1, [ 
 					{ title: 'Node Id', subtitle: node.id},
 					{ title: 'Space available', subtitle: data.spaceAvailable.toString()},

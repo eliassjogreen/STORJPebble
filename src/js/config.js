@@ -28,9 +28,10 @@ module.exports = [
 			{
 				"type": "input",
 				"appKey": "nick",
+				"defaultValue": "DEMO please configure",
 				"label": "Node Nickname",
 				"attributes": {
-					"placeholder": "DEMO",
+					"placeholder": "Please enter your node nick here",
 					"required": "required",
 					"type": "text"
 				}
@@ -38,9 +39,10 @@ module.exports = [
 			{
 				"type": "input",
   				"appKey": "id",
+				"defaultValue": "ff67240e523fc15e2fbdf4caeed8421840e0f71c",
 				"label": "Node Id",
 				"attributes": {
-					"placeholder": "ff67240e523fc15e2fbdf4caeed8421840e0f71c",
+					"placeholder": "Please enter your node id here",
 					"limit": 40,
 					"required": "required",
 					"type": "text"
