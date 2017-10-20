@@ -8,4 +8,4 @@ Just open the pebble app and configure the app!
 I am right now implementing support for multiple nodes, any help would be greatly appreciated!
 
 - [ ] Multiple nodes
-- [ ] Configurable using clay
+- [x] Configurable using clay
