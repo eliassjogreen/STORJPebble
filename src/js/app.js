@@ -8,7 +8,7 @@ var clay = new Clay(clayConfig);
 
 var options = Settings.option();
 
-var node = {id: 'ff67240e523fc15e2fbdf4caeed8421840e0f71c', nick: 'NAS'};
+var node = {id: 'ff67240e523fc15e2fbdf4caeed8421840e0f71c', nick: 'DEMO Please configure'};
 
 var interval = 10000;
 
@@ -32,6 +32,7 @@ main.section(1, { title: node.nick, items: [
 ]});
 
 main.show();
+updateItems();
 
 Pebble.addEventListener('showConfiguration', function(e) {
 	var claySettings = JSON.parse(localStorage.getItem("clay-settings"));

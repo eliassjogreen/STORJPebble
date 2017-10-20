@@ -30,7 +30,7 @@ module.exports = [
 				"appKey": "nick",
 				"label": "Node Nickname",
 				"attributes": {
-					"placeholder": "NAS",
+					"placeholder": "DEMO",
 					"required": "required",
 					"type": "text"
 				}
