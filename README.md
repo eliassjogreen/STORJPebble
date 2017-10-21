@@ -13,3 +13,4 @@ I am right now implementing support for multiple nodes, any help would be greatl
 
 - [ ] Multiple nodes
 - [x] Configurable using clay
+- [ ] Add color and make prittier!
