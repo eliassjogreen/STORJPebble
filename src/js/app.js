@@ -31,7 +31,11 @@ main.section(1, { title: node.nick, items: [
 	{title: 'User agent'}
 ]});
 
-Pebble.addEventListener('ready', function(e) {	
+setOptions();
+updateItems();
+main.show();
+
+Pebble.addEventListener('ready', function(e) {
 	setOptions();
 	updateItems();
 	main.show();
@@ -45,10 +49,9 @@ Pebble.addEventListener('showConfiguration', function(e) {
 				claySettings[key] = options[key];
 			}
 		}
-	}	
+	}
 	localStorage["clay-settings"] = JSON.stringify(claySettings);
   	Pebble.openURL(clay.generateUrl());
-	
 	updateItems();
 	main.show();
 });
