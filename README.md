@@ -1,7 +1,7 @@
 # STORJPebble
 [![Mentioned in Awesome Storj](https://awesome.re/mentioned-badge.svg)](https://github.com/Storj/awesome-storj)
 [![Storj.io](https://storj.io/img/storj-badge.svg)](https://storj.io)
-![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-ff69b4.svg)
+[![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-ff69b4.svg)](https://github.com/eliassjogreen/STORJPebble)
 [![GitHub license](https://img.shields.io/github/license/eliassjogreen/STORJPebble.svg)](https://github.com/eliassjogreen/STORJPebble/blob/master/LICENSE)
 [![Javascript](https://img.shields.io/badge/%3C%2F%3E-Javascript-blue.svg)](https://www.javascript.com/)
 
