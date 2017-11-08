@@ -3,7 +3,7 @@
 [![Storj.io](https://storj.io/img/storj-badge.svg)](https://storj.io)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
-[![Javascript](https://badges.frapsoft.com/javascript/code/javascript.svg?v=101)](https://github.com/ellerbrock/javascript-badges/)
+[![Javascript](https://badges.frapsoft.com/javascript/code/javascript.png?v=101)](https://github.com/ellerbrock/javascript-badges/)
 
 A simple storj node monitoring app for pebble
 
